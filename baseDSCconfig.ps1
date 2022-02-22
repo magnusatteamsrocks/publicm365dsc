@@ -58,9 +58,9 @@ Configuration M365TenantConfig
             AllowCallForwardingToUser         = $True;
             AllowCallGroups                   = $True;
             AllowCloudRecordingForCalls       = $False;
-            AllowDelegation                   = $True;
+            AllowDelegation                   = $False;
             AllowPrivateCalling               = $True;
-            AllowTranscriptionForCalling      = $False;
+            AllowTranscriptionForCalling      = $True;
             AllowVoicemail                    = "UserOverride";
             AllowWebPSTNCalling               = $True;
             AutoAnswerEnabledType             = "Disabled";
@@ -124,7 +124,7 @@ Configuration M365TenantConfig
             AllowCallForwardingToPhone        = $True;
             AllowCallForwardingToUser         = $True;
             AllowCallGroups                   = $True;
-            AllowCloudRecordingForCalls       = $False;
+            AllowCloudRecordingForCalls       = $True;
             AllowDelegation                   = $True;
             AllowPrivateCalling               = $True;
             AllowTranscriptionForCalling      = $False;
@@ -320,7 +320,7 @@ Configuration M365TenantConfig
             AllowPowerPointSharing                     = $True;
             AllowPrivateMeetingScheduling              = $True;
             AllowPrivateMeetNow                        = $True;
-            AllowPSTNUsersToBypassLobby                = $False;
+            AllowPSTNUsersToBypassLobby                = $True;
             AllowRecordingStorageOutsideRegion         = $False;
             AllowSharedNotes                           = $True;
             AllowTranscription                         = $True;
